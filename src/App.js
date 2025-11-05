@@ -5,6 +5,10 @@ import Signup from './pages/Signup';
 import logo from './logo.svg';
 import './App.css';
 
+import Gallery from './pages/Gallery';
+import MovieDetail from './pages/MovieDetail';
+import ProtectedRoute from './components/ProtectedRoute';
+
 function App() {
   //implememting storage here soon
   const loggedIn = !!localStorage.getItem('token')
@@ -59,7 +63,7 @@ function App() {
 
           <Route path="*" element={<Navigate to={loggedIn ? '/' : '/login'} replace />} />
         </Routes>
-      </main
+      </main>
 
       <footer className="app-footer">
         <small>Just a simple movies explorer</small>
