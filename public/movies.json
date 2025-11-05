@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "Echoes in the Abyss",
+    "year": 2022,
+    "poster": "https://via.placeholder.com/300x450?text=Echoes+in+the+Abyss",
+    "genres": ["Horror", "Mystery"],
+    "synopsis": "A group of divers explores a forgotten underwater city, awakening dark forces that threaten their sanity.",
+    "director": "T. L. Carter",
+    "rating": 7.5
+  },
+  {
+    "id": "2",
+    "title": "Chasing Shadows",
+    "year": 2023,
+    "poster": "https://via.placeholder.com/300x450?text=Chasing+Shadows",
+    "genres": ["Fantasy", "Adventure"],
+    "synopsis": "A young girl discovers a portal to a mystical world and must confront her fears to save it from destruction.",
+    "director": "J. M. Parker",
+    "rating": 8.3
+  },
+  {
+    "id": "3",
+    "title": "Whispers of Time",
+    "year": 2020,
+    "poster": "https://via.placeholder.com/300x450?text=Whispers+of+Time",
+    "genres": ["Romance", "Sci-Fi"],
+    "synopsis": "Two lovers are separated by a century, but a time-traveling device offers one last chance to reunite.",
+    "director": "R. H. Collins",
+    "rating": 7.7
+  },
+  {
+    "id": "4",
+    "title": "The Last Heist",
+    "year": 2021,
+    "poster": "https://via.placeholder.com/300x450?text=The+Last+Heist",
+    "genres": ["Crime", "Thriller"],
+    "synopsis": "An aging thief assembles a crew for one final job, unaware that betrayal lurks within.",
+    "director": "P. Q. Morgan",
+    "rating": 7.2
+  },
+  {
+    "id": "5",
+    "title": "Fading Echoes",
+    "year": 2018,
+    "poster": "https://via.placeholder.com/300x450?text=Fading+Echoes",
+    "genres": ["Drama", "Mystery"],
+    "synopsis": "A woman returns to her hometown after many years to solve the mystery of her sister's disappearance.",
+    "director": "K. W. Edwards",
+    "rating": 7.9
+  },
+  {
+    "id": "6",
+    "title": "Quantum Hearts",
+    "year": 2024,
+    "poster": "https://via.placeholder.com/300x450?text=Quantum+Hearts",
+    "genres": ["Sci-Fi", "Romance"],
+    "synopsis": "In a future where love is quantified, a scientist risks everything to experience real emotions.",
+    "director": "A. H. Chen",
+    "rating": 8.6
+  },
+  {
+    "id": "7",
+    "title": "The Forgotten Forest",
+    "year": 2025,
+    "poster": "https://via.placeholder.com/300x450?text=The+Forgotten+Forest",
+    "genres": ["Fantasy", "Family"],
+    "synopsis": "A family discovers a mythical forest that reveals long-lost family secrets and the power of love.",
+    "director": "S. A. Miller",
+    "rating": 8.0
+  }
+]
