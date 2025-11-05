@@ -17,8 +17,9 @@ function App() {
 
   return (
     <div className="app">
+      //the navbar
       <header className="app-header">
-        <h1 className="logo"><Link to="/">Movie Explorer</Link></h1>
+        <h1 className="logo"><Link to="/">Mamovie</Link></h1>
         <nav>
           {loggedIn ? (
             <>
@@ -32,6 +33,10 @@ function App() {
           )}
         </nav>
       </header>
+
+      //main body
+
+
     </div>
   );
 }
