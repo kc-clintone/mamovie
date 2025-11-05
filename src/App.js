@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="app">
-      //the navbar
+
       <header className="app-header">
         <h1 className="logo"><Link to="/">Mamovie</Link></h1>
         <nav>
@@ -34,8 +34,36 @@ function App() {
         </nav>
       </header>
 
-      //main body
+      <main className="app-main">
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
 
+          <Route
+            path="/"
+            element={
+              <ProtectedRoute>
+                <Gallery />
+              </ProtectedRoute>
+            }
+          />
+
+          <Route
+            path="/movies/:id"
+            element={
+              <ProtectedRoute>
+                <MovieDetail />
+              </ProtectedRoute>
+            }
+          />
+
+          <Route path="*" element={<Navigate to={loggedIn ? '/' : '/login'} replace />} />
+        </Routes>
+      </main
+
+      <footer className="app-footer">
+        <small>Just a simple movies explorer</small>
+      </footer>
 
     </div>
   );
