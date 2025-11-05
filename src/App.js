@@ -17,7 +17,21 @@ function App() {
 
   return (
     <div className="app">
-      
+      <header className="app-header">
+        <h1 className="logo"><Link to="/">Movie Explorer</Link></h1>
+        <nav>
+          {loggedIn ? (
+            <>
+              <button className="btn" onClick={handleLogout}>Logout</button>
+            </>
+          ) : (
+            <>
+              <Link className="btn" to="/login">Login</Link>
+              <Link className="btn" to="/signup">Sign Up</Link>
+            </>
+          )}
+        </nav>
+      </header>
     </div>
   );
 }
