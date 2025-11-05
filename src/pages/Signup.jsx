@@ -29,3 +29,28 @@ export default function Signup() {
       navigate('/');
     }, 900);
   }
+
+  return (
+    <div className="auth-card">
+      <h2>Sign Up</h2>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Name
+          <input name="name" value={form.name} onChange={handleChange} required/>
+        </label>
+        <label>
+          Email
+          <input name="email" value={form.email} onChange={handleChange} required/>
+        </label>
+        <label>
+          Password
+          <input name="password" type="password" value={form.password} onChange={handleChange} required/>
+        </label>
+        <button className="btn" type="submit" disabled={loading}>
+          {loading ? 'Signing up…' : 'Sign Up'}
+        </button>
+      </form>
+      <small>Have an account? sign in.</small>
+    </div>
+  );
+}
