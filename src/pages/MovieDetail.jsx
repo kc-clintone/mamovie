@@ -16,11 +16,11 @@ export default function MovieDetail() {
       .then(response => response.ok ? response.json() : Promise.reject('fetch error'))
       .then(data => {
         const movArr = Array.isArray(data) ? data : data.movies || [];
-        const data = movArr.find(movie => String(movie.id) === String(id));
+        const movData = movArr.find(movie => String(movie.id) === String(id));
         // simulating delay
         setTimeout(() => {
           if (!mounted) return;
-          setMovie(data || null);
+          setMovie(movData || null);
           setLoading(false);
         }, 700);
       })
